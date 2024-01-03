@@ -1,10 +1,12 @@
 from models import User
 
+
 # Create
-new_user = User.create(username="Alapakam Dorababu5", email="dora5@example.com")
+# new_user = User(username="Alapakam Dorababu6", email="dora6@example.com")
+# new_user.save()
 
 
-# Read
+# # Read
 users = User.query.all()
 
 for user in users:
